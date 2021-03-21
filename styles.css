@@ -1,0 +1,42 @@
+/* landing page large image*/
+#left-image {
+  height: 400px;
+  width: 450px;
+  float: left;
+  margin-right: 10px;
+}
+
+/* landing page small images*/
+.right-image {
+  height: 250px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+/* comparison page large images*/
+.comp-image {
+  height: 450px;
+  width: 500px;
+  float: left;
+  margin-right: 10px;
+}
+
+h2, h3{
+  font: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightseagreen;
+}
+
+
+/* define some styles that will ONLY be applied at screen sizes below 700 pixel*/
+@media(max-width:750px){
+  .navbar.bg-light{
+      background-color:lightseagreen!important;    
+  }
+  .navbar-collapse{
+      background-color: #f8f9fa;
+  }
+  .navbar{
+      padding:inherit;
+  }
+}
